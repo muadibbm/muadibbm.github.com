@@ -12,6 +12,7 @@
     root.tree = new CellType(true, "static/images/tree.png", 10);
     root.grass = new CellType(false, "static/images/grass.png", -1);
     root.water = new CellType(false, "static/images/water.png", -1);
+	root.dirt = new CellType(false, "static/images/dirt.png", -1);
     width = 0;
     firstRow = true;
     height = 0;
