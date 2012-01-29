@@ -98,8 +98,8 @@
         var _ref2, _results2;
         _results2 = [];
         for (y = 0, _ref2 = Game.map.height - 1; 0 <= _ref2 ? y <= _ref2 : y >= _ref2; 0 <= _ref2 ? y++ : y--) {
-          destX = x * Game.tileWidth;
-          destY = 0;
+          destX = x * Game.tileWidth;;
+          destY = y * Game.tileWidth;;
           cell = Game.map.getCell(x, y);
           if (cell.hp <= -1) {
             srcX = 4 * Game.tileWidth;
