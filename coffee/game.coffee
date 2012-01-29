@@ -69,7 +69,7 @@ Game.draw = () ->
         # 4 levels of tree damage
         damageLevel = Math.floor(4 - 4* (cell.hp / cell.celltype.maxHp))
         srcX = damageLevel * Game.tileWidth
-        srcY = 0
+        srcY = damageLevel * Game.tileHeight
         Game.ctx.drawImage cell.celltype.image, srcX, srcY, Game.tileHeight, Game.tileWidth,
           destX, destY, Game.tileHeight, Game.tileWidth
         #TODO check for fire, render fire
