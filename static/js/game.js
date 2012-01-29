@@ -98,17 +98,17 @@
         var _ref2, _results2;
         _results2 = [];
         for (y = 0, _ref2 = Game.map.height - 1; 0 <= _ref2 ? y <= _ref2 : y >= _ref2; 0 <= _ref2 ? y++ : y--) {
-          destX = x * Game.tileWidth;;
-          destY = y * Game.tileWidth;;
+          destX = x * Game.tileWidth;
+          destY = y * Game.tileHeight;
           cell = Game.map.getCell(x, y);
-          if (cell.hp <= -1) {
-            srcX = 4 * Game.tileWidth;
+          if (cell.hp === -1) {
+            srcX = 0;
             srcY = 0;
             _results2.push(Game.ctx.drawImage(cell.celltype.image, srcX, srcY, Game.tileHeight, Game.tileWidth, destX, destY, Game.tileHeight, Game.tileWidth));
           } else {
             damageLevel = Math.floor(4 - 4 * (cell.hp / cell.celltype.maxHp));
             srcX = damageLevel * Game.tileWidth;
-            srcY = damageLevel * Game.tileHeight;
+            srcY = 0;
             _results2.push(Game.ctx.drawImage(cell.celltype.image, srcX, srcY, Game.tileHeight, Game.tileWidth, destX, destY, Game.tileHeight, Game.tileWidth));
           }
         }
@@ -122,8 +122,8 @@
     var cell, x, y, _ref, _ref2;
     Game.canvas = canvas;
     Game.map = map;
-    for (x = 0, _ref = Game.map.width - 1; 0 <= _ref ? x <= _ref : x >= _ref; 0 <= _ref ? x++ : x--) {
-      for (y = 0, _ref2 = Game.map.height - 1; 0 <= _ref2 ? y <= _ref2 : y >= _ref2; 0 <= _ref2 ? y++ : y--) {
+    for (x = 0, _ref = map.width - 1; 0 <= _ref ? x <= _ref : x >= _ref; 0 <= _ref ? x++ : x--) {
+      for (y = 0, _ref2 = map.height - 1; 0 <= _ref2 ? y <= _ref2 : y >= _ref2; 0 <= _ref2 ? y++ : y--) {
         cell = map.getCell(x, y);
         cell.x = x;
         cell.y = y;
