@@ -26,7 +26,7 @@
 
   Game.destructionConstant = 0.1;
 
-  Game.propogationConstant = 0.2;
+  Game.propogationConstant = 0.5;
 
   Game.run = function() {
     Game.update();
@@ -101,10 +101,10 @@
           destX = x * Game.tileWidth;
           destY = y * Game.tileHeight;
           cell = Game.map.getCell(x, y);
-          if (cell.hp === -1) {
+          if (cell.hp <= -1) {
             srcX = 0;
             srcY = 0;
-            _results2.push(Game.ctx.drawImage(root.dirt, srcX, srcY, Game.tileHeight, Game.tileWidth, destX, destY, Game.tileHeight, Game.tileWidth));
+            _results2.push(Game.ctx.drawImage(cell.celltype.image, srcX, srcY, Game.tileHeight, Game.tileWidth, destX, destY, Game.tileHeight, Game.tileWidth));
           } else {
             damageLevel = Math.floor(4 - 4 * (cell.hp / cell.celltype.maxHp));
             srcX = damageLevel * Game.tileWidth;
