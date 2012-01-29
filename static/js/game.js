@@ -157,7 +157,7 @@
     }
     Game.ctx = canvas.getContext('2d');
     Game.initEvents();
-    return root.loadImage('images/fire.png', function(err, image) {
+    return root.loadImage('static/images/fire.png', function(err, image) {
       Game.fireSpriteSheet = image;
       return callback();
     });
