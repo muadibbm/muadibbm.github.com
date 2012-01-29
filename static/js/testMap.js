@@ -9,9 +9,9 @@
 
   root.parseMap = function(string) {
     var char, firstRow, grass, height, map, s, tree, water, width, _ref;
-    tree = new CellType(true, "images/tree.png", 10);
-    grass = new CellType(false, "images/grass.png", -1);
-    water = new CellType(false, "images/water.png", -1);
+    tree = new CellType(true, "static/images/tree.png", 10);
+    grass = new CellType(false, "static/images/grass.png", -1);
+    water = new CellType(false, "static/images/water.png", -1);
     width = 0;
     firstRow = true;
     height = 0;
