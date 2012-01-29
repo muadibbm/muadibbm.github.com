@@ -77,8 +77,8 @@ Game.draw = () ->
 Game.init = (canvas, map, callback) ->
   Game.canvas = canvas 
   Game.map = map
-  for x in [0..map.width - 1]
-    for y in [0..map.height - 1]
+  for x in [0..Game.map.width - 1]
+    for y in [0..Game.map.height - 1]
       cell = map.getCell(x,y)
       cell.x = x
       cell.y = y 
