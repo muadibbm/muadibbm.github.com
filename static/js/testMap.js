@@ -7,9 +7,9 @@
 
   root.testMap = testMap = function() {
     var cellHeight, cellWidth, grass, height, i, map, mapHeight, mapWidth, numofCells, tree, water, width;
-    tree = new CellType(true, "static/images/tree.png", 10);
-    grass = new CellType(false, "static/images/grass.png", -1);
-    water = new CellType(false, "static/images/water.png", -1);
+    tree = new CellType(true, "images/tree.png", 10);
+    grass = new CellType(false, "images/grass.png", -1);
+    water = new CellType(false, "images/water.png", -1);
     map = [];
     width = 800;
     height = 600;
