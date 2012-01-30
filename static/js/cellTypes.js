@@ -7,8 +7,8 @@
 
   root.treeType = new CellType(true, "static/images/tree.png", 10);
 
-  root.grassType = new CellType(false, "static/images/grass.png", -1);
+  root.grassType = new CellType(false, "static/images/grass.png", 0);
 
-  root.waterType = new CellType(false, "static/images/water.png", -1);
+  root.waterType = new CellType(false, "static/images/waterfade.png", -10);
 
 }).call(this);
