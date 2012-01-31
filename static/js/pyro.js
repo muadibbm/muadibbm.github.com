@@ -11,7 +11,7 @@
     map = root.parseMap(root.levelTwo);
     map = root.randomMap(32, 16);
     return root.Game.init(c, map, function() {
-      var progBar;
+      var progBar, victoryDiv;
       progBar = $('.progressBar')[0];
       Game.on('progress', function(game) {
         var progWidth, treeCount, treesBurnt;
@@ -19,26 +19,25 @@
         progWidth = (treesBurnt / treeCount) * $(progBar).width();
         return $($(progBar).children()[0]).width(progWidth);
       });
+      Game.on('move', function(moveCount) {});
+      $('#about').click(function() {
+        return tb_show('How to play', '#TB_inline?height=320&width=300&inlineId=hiddenModalContent');
+      });
+      victoryDiv = $("<div id='victoryMessage' class='TB_modal' style='display:none;'><div>Congratulations, you burnt down a forest.</div></div>");
+      $('body').append(victoryDiv);
+      Game.on('victory', function(game) {
+        return tb_show('Victory', '#TB_inline?height=100&width=300&inlineId=victoryMessage');
+      });
       $('#burn').click(function() {
-        var cell, _i, _len, _ref, _results;
-        Game.cellsOnFire = [];
-        _ref = root.Game.map.map;
-        _results = [];
-        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-          cell = _ref[_i];
-          if (cell.celltype === root.treeType && cell.hp > 0) {
-            cell.firelevel = Game.MaxFireLevel;
-            cell.onFire = true;
-          }
-          _results.push(Game.cellsOnFire.push(cell));
-        }
-        return _results;
+        return Game.burnAll();
       });
       $('#randomize').click(function() {
-        return Game.loadMap(root.randomMap(32, 16));
+        Game.loadMap(root.randomMap(32, 16));
+        return Game.start();
       });
       $('#regrow').click(function() {
-        return Game.loadMap(root.randomMap(32, 16));
+        Game.regrow();
+        return Game.start();
       });
       return root.Game.start();
     });
