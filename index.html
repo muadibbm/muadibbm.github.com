@@ -1,10 +1,21 @@
 <html>
-	<body bgcolor="#000000">
-	<style type="text/css">
+	<style type="text/css" media="screen">
+	
 	body {
-	margin:50px 0px; padding:0px;
-	text-align:center;
-	}
+		margin:50px 0px; padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+		text-align:center; /* Hack for IE5/Win */
+		}
+		
+	#Content {
+		width:500px;
+		margin:0px auto; /* Right and left margin widths set to "auto" */
+		text-align:left; /* Counteract to IE5/Win Hack */
+		padding:15px;
+		border:1px dashed #333;
+		background-color:#eee;
+		}
+	</style>
+	<body bgcolor="#000000">
 	</style>
 		<div style="text-align:center">
 		<body>
