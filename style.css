@@ -171,6 +171,25 @@ color:#1F1603;
 font-family: FANTASY;
 }
 
+h2
+{
+font-size:40px;
+margin-bottom:1px;
+text-align:center;
+padding-top:30px;
+color:white;
+font-family: FANTASY;
+}
+
+h3
+{
+	font-size:16px;
+	padding-top:40px;
+	color:white;
+	text-align:center;
+	font-family: "helvetica", sans-serif;
+}
+
 h5
 {
 font-size:22px;
@@ -215,49 +234,29 @@ margin:0px;
 text-decoration:none;
 }
 
-a   span.text-content
+.pic
+{ 
+	width:250px; 
+	height:230px; 
+	opacity: 1; 
+	filter: alpha(opacity=100);
+} 
+
+.text
 {
-text-decoration:none;
-color:#484848;
-font-family: "roland", sans-serif;
+	opacity:0;
 }
 
-a:hover  span.text-content
-{
-	color:#000000;
-	text-decoration:none;
-	font-family: "roland", sans-serif;
-	font-size:32px;
-	opacity: 1;
-	display: inline-block;
+.pic:hover .text 
+{ 
+	opacity:1;
+	color:white;
 }
 
-span.text-content {
-  background: rgba(0,0,0,0.1);
-  color:#FFFFFF;
-  cursor: pointer;
-  vertical-align: middle;
-   text-align: center;
-  opacity: 0;
-}
-
-span.text-content span {
-  text-align: center;
-  vertical-align: middle;
-}
-
-blockquote {
-	font-size:19px;
-	text-align:justify;
-	width:400px;
-	color:#000000;
-	padding:15px;
-	margin:10px;
-	font-family: "helvetica", sans-serif;
-	background-image:url(blockquote.png);
-	background-repeat:no-repeat;
-	border:dashed 1px;
-	border-color:#484848;
+.pic:hover
+{ 
+	opacity:0.8;
+	filter: alpha(opacity=10);
 }
 
 html, body {
