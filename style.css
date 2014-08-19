@@ -114,7 +114,7 @@ border-bottom:none;
 #mainPicture
 {
 	clear:both;
-	height:160px;
+	height:175px;
 	background-color:#000000;
 	background-repeat:repeat-x;
 }
@@ -152,16 +152,13 @@ font-family: "helvetica", sans-serif;
 
 .contentBox
 {
-width: 100%;
-background-color:#000000;
+background-color:#FFFFFF;
 }
 
 .contentBox .innerBox
 {
 position:relative;
-width: 99%;
-top:10px;
-margin-left:10px;
+top:3px;
 font-size:10px;
 background-image:url(contentBack.png);
 background-color:#FFFFFF;
@@ -170,22 +167,20 @@ background-repeat:repeat-x;
 
 h1
 {
-font-size:36px;
-margin-bottom:1px;
-padding-top:10px;
-margin-left:15px;
-color:#1F1603;
-font-family: FANTASY;
+	font-size:36px;
+	color:#1F1603;
+	font-family: FANTASY;
+	text-align:center;
 }
 
 h2
 {
-font-size:40px;
-margin-bottom:1px;
-text-align:center;
-padding-top:30px;
-color:white;
-font-family: FANTASY;
+	font-size:40px;
+	margin-bottom:1px;
+	padding-top:30px;
+	color:white;
+	font-family: FANTASY;
+	text-align:center;
 }
 
 h3
@@ -193,16 +188,15 @@ h3
 	font-size:16px;
 	padding-top:40px;
 	color:white;
-	text-align:center;
 	font-family: "helvetica", sans-serif;
+	text-align:center;
 }
 
 h5
 {
 font-size:22px;
 padding-top:1px;
-margin-left:15px;
-margin-bottom:20px;
+text-align:center;
 color:#1F1603;
 font-family: fantasy;
 }
@@ -211,34 +205,37 @@ font-family: fantasy;
 {
 font-size:16px;
 line-height:24px;
-margin-left:13px;
-margin-right:13px;
+text-align:center;
+margin-top:10px;
+margin-left:5%;
+margin-right:5%;
 }
 
 .contactText
 {
 font-size:15px;
 line-height:24px;
-margin-left:13px;
-margin-right:13px;
+text-align:center;
+/*margin-left:13px;
+margin-right:13px;*/
 }
 
 .gameText
 {
 font-size:18px;
 line-height:20px;
+text-align:center;
 /*margin-left:71px;
 margin-right:15px;*/
 }
 
 h4 {
-text-align:center;
 padding-top:30px;
 font-size:9px;
 font-family: "helvetica", sans-serif;
 color:#000000;
-margin:0px;
 text-decoration:none;
+text-align:center;
 }
 
 .pic
