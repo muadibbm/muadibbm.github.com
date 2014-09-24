@@ -14,6 +14,80 @@
   width: 800px;
 }
 
+#pageUnder
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 500px;
+}
+
+.topNaviagationLink3
+{
+text-decoration:none;
+text-align:center;
+position:relative;
+font-size:22px;
+width:250px;
+height: 35px;
+line-height: 42px;
+float:left;
+font-family: "roland", sans-serif;
+color:#A4A4A4;
+}
+
+.topNaviagationLink3 a
+{
+text-decoration:none;
+color:#A4A4A4;
+}
+
+.topNaviagationLink3 a:hover
+{
+text-decoration:none;
+text-align:center;
+color:#A4A4A4;
+display: block;
+width: 250px;
+height: 35px;
+line-height: 35px;
+background-image:url(tab.png);
+border-bottom:none;
+}
+
+.topNaviagationLink2
+{
+text-decoration:none;
+text-align:center;
+position:relative;
+font-size:22px;
+width:250px;
+height: 35px;
+line-height: 42px;
+float:left;
+font-family: "roland", sans-serif;
+}
+
+.topNaviagationLink2 a
+{
+text-decoration:none;
+color:#000000;
+}
+
+.topNaviagationLink2 a:hover
+{
+text-decoration:none;
+text-align:center;
+color:#FFFFFF;
+display: block;
+width: 250px;
+height: 35px;
+line-height: 35px;
+background-image:url(tab.png);
+border-bottom:none;
+}
+
 hr
 {
 color: #000;
@@ -207,6 +281,12 @@ text-align:center;
 { 
 	width:360px;
 	height:240px;
+}
+
+.picBD2
+{
+	width:600px;
+	height:590px;
 }
 
 .text
