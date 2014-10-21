@@ -191,12 +191,20 @@ background-color:#FFFFFF;
 background-repeat:repeat-x;
 }
 
+h6
+{
+	font-size:20px;
+	color:#1F1603;
+	font-family: FANTASY;
+}
+
 h1
 {
 	font-size:36px;
 	color:#1F1603;
 	font-family: FANTASY;
 	text-align:center;
+	font-weight: bold;
 }
 
 h2
@@ -220,11 +228,20 @@ h3
 
 h5
 {
-font-size:22px;
-padding-top:1px;
-text-align:center;
-color:#1F1603;
-font-family: fantasy;
+	font-size:22px;
+	padding-top:1px;
+	text-align:center;
+	color:#1F1603;
+	font-family: fantasy;
+}
+
+.blogentry
+{
+	font-size:18px;
+	margin-top:5px;
+	font-family: fantasy;
+	text-align:left;
+	color:#1F1603;
 }
 
 .contentText
@@ -316,6 +333,30 @@ body
 	font-family: "roland";
 	background-color: #FFFFFF;
 }
-p, h6 {text-align: left;
+
+p, h6 {
+	text-align: left;
 	margin-left:10%;
-	margin-right:10%;}
+	margin-right:10%;
+}
+
+p {
+	font-size:20px;
+	font-family: ariel;
+	text-align:left;
+	color:#1F1603;
+}
+
+.codebox {
+    /* Below are styles for the codebox (not the code itself) */
+    border:1px solid black;
+    background-color:#EEEEFF;
+    width:300px;
+    overflow:auto;    
+    padding:10px;
+}
+.codebox code {
+    /* Styles in here affect the text of the codebox */
+    font-size:0.9em;
+    /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+}
