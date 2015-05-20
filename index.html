@@ -1,103 +1,351 @@
- <!--
-Design by Bryant Smith
-Modified by Mehrdad Dehdashti
-http://www.bryantsmith.com
-http://www.aszx.net
-email: template [-at-] bryantsmith [-dot-] com
-Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+<!doctype html>
+<html class="no-js">
 
-Name       : HD Monochrome
-Description: One column, with top naviation.  All divs, validations: XHTML Strict 1.0 & CSS
-Version    : 1.0
-Released   : 20081009
--->
+	<head>
+		<meta charset="utf-8"/>
+		<title>Mehrdad Dehdashti</title>
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" media="all" href="css/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+		
+		
+		<!-- JS -->
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="js/jquery-1.6.4.min.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/tabs.js"></script>
+		
+		<!-- Tweet -->
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  /> 
+		<script src="js/tweet/jquery.tweet.js" ></script> 
+		<!-- ENDS Tweet -->
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<!-- prettyPhoto -->
+		<script  src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css"  media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-twitter/tip-twitter.css"  />
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css"  />
+		<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
+		
+		<!-- Flex Slider -->
+		<link rel="stylesheet" href="css/flexslider.css" >
+		<script src="js/jquery.flexslider-min.js"></script>
+		<!-- ENDS Flex Slider -->
+		
+		<!-- Less framework -->
+		<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+		
+		<!-- modernizr -->
+		<script src="js/modernizr.js"></script>
+		
+		<!-- SKIN -->
+		<link rel="stylesheet" media="all" href="css/skin.css"/>
+		
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Mehrdad Dehdashti</title>
-</head>
+	</head>
+	
+	<body lang="en">
+	
+		
+	
+		<header class="clearfix">
+		
+			<!-- top widget
+			<div id="top-widget-holder">
+				<div class="wrapper">
+					<div id="top-widget">
+						<div class="padding">
+						<ul  class="widget-cols clearfix">
+								<li class="first-col">
+									
+									<div class="widget-block">
+										<h4>Recent posts</h4>
+										<div class="recent-post">
+											<a href="#" class="thumb"><img src="img/dummies/54x54.gif" alt="Post" /></a>
+											<div class="post-head">
+												<a href="#">Pellentesque habitant morbi senectus</a><span> March 12, 2011</span>
+											</div>
+										</div>
+										<div class="recent-post">
+											<a href="#" class="thumb"><img src="img/dummies/54x54.gif" alt="Post" /></a>
+											<div class="post-head">
+												<a href="#">Pellentesque habitant morbi senectus</a><span> March 12, 2011</span>
+											</div>
+										</div>
+										<div class="recent-post">
+											<a href="#" class="thumb"><img src="img/dummies/54x54.gif" alt="Post" /></a>
+											<div class="post-head">
+												<a href="#">Pellentesque habitant morbi senectus</a><span> March 12, 2011</span>
+											</div>
+										</div>
+									</div>
+								</li>
+								
+								<li class="second-col">
+									
+									<div class="widget-block">
+										<h4>Dummy text</h4>
+										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies ege. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
+									</div>
+									
+								</li>
+								
+								<li class="third-col">
+									
+									<div class="widget-block">
+										<h4>Dummy text</h4>
+										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies ege. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
+									</div>
+					         		
+								</li>
+								
+								<li class="fourth-col">
+									
+									<div class="widget-block">
+										<h4>Dummy text</h4>
+										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies ege. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
+									</div>
+					         		
+								</li>	
+							</ul>				
+						</div>
+					</div>
+				</div>
+				<a href="#" id="top-open">Menu</a>
+			</div>
+			ENDS top-widget -->
+		
+			<div class="wrapper clearfix">
+				
+				<a href="index.html" id="logo">
+					<div class="title">MEHRDAD DEHDASHTI</div>
+					<img  src="" alt="">
+					<div class="subtitle">Game Developer, Programmer, Creativity Enthusiast</div>
+				</a>
+				
+				<nav>
+					<ul id="nav" class="sf-menu">
+						<li class="current-menu-item"><a href="index.html">HOME</a></li>
+						<li><a href="portfolio.html">WORK</a></li>
+						<li><a href="blog.html">BLOG</a>
+							<!-- <ul>
+								<li><a href="#">Submenu</a></li>
+								<li><a href="#">Submenu</a></li>
+								<li><a href="#">Submenu</a></li>
+							</ul> -->
+						</li>
+						<li><a href="page.html">ABOUT</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+					<div id="combo-holder"></div>
+				</nav>
+			</div>
+		</header>
+		
+		
 
-<body>
-    <div id="page">
-        <div class="topNaviagationLink"><a href="index.html">Games</a></div>
-		<div class="topNaviagationLink"><a href="blog.html">Blog</a></div>
-		<div class="topNaviagationLink"><a href="about.html">About</a></div>
-        <div class="topNaviagationLink"><a href="resources.html">Resources</a></div>
-	</div>
-    <div id="mainPicture">
-    	<div class="picture">
-        </div>
-    </div>
-        <div class="contentBox">
-    	<div class="innerBox">
-		<div class="gameText">
-		<div id="pageUnder">
-			<div class="topNaviagationLink3"><a href="index.html">Video Games</a></div>
-			<div class="topNaviagationLink2"><a href="boardgame.html">Board Games</a></div>
+		
+		<!-- MAIN -->
+		<div id="main">
+			<div class="wrapper">
+
+				<!-- slider holder -->
+				<div id="slider-holder" class="clearfix">
+					
+					<!-- slider -->
+			        <div class="flexslider home-slider">
+					  <ul class="slides">
+					    <li><img src="img/slides/MakerbloksWorld.jpg" alt="alt text" /></li>
+					    <li><img src="img/slides/WarAgent.jpg" alt="alt text" /></li>
+					    <li><img src="img/slides/Gloops.jpg" alt="alt text" /></li>
+					  </ul>
+					</div>
+		        	<!-- ENDS slider -->
+		        	
+		        	<div class="home-slider-clearfix "></div>
+		        	
+		        	<!-- Headline
+		        	<div id="headline">
+		        		<h1>RESPONSIVE, FREE AND SLEEK</h1>
+		        		<p>Zeni is a FREE Responsive HTML 5 Template.</p>
+		        		<p>Visit my <a href="http://www.luiszuno.com">site</a> for more freebies</p>
+		        		<em id="corner"></em>
+		        	</div>
+		        	ENDS headline -->
+		        	
+		        	
+				</div>
+				<!-- ENDS slider holder -->
+				
+				
+				<!-- home-block -->
+	        	<div class="home-block" >
+	        		<h2 class="home-block-heading"><span>LATEST PROJECTS</span></h2>
+	        		<div class="one-third-thumbs clearfix" >
+	        			<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-1.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-2.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<figure class="last">
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-3.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-4.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-5.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<figure class="last">
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-6.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		
+	        		</div>
+	        	</div>
+	        	<!-- ENDS home-block -->
+	        	
+	        	
+	        	<!-- home-block
+	        	<div class="home-block">
+	        		<h2 class="home-block-heading"><span>LATEST PROJECTS</span></h2>
+	        		<div class="one-fourth-thumbs clearfix">
+	        			
+	        			
+	        			<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-7.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-8.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-9.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<figure class="last">
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html"  class="thumb"><img src="img/dummies/featured-10.jpg" alt="Alt text" /></a>
+		        		</figure>
+		        		
+		        		<a href="#" class="more-link right">More projects  &#8594;</a>
+		        		
+		        		
+		        		
+	        		</div>
+	        		
+	        		
+	        	</div>
+	        	ENDS home-block -->
+	        		        	
+			</div>
 		</div>
-		<table>
-			<tr>
-				<td>
-					<a href="https://play.google.com/store/apps/details?id=com.GriffinGames.GloopsTheGreatFall&hl=en" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(gloops.jpg)"><div class="text"><h2>Gloops</h2><h3>A simple physics-based arcade game for mobile</h3></div></div></a>
-				</td>
-				<td>
-					<a href="http://waragentgame.com/" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(agent.jpg)"><div class="text"><h2>War Agent</h2><h3>A mobile game that explores the world of war profiteering</h3></div></div></a>
-				</td>
-				<td>
-					<a href="PreJamGame2014.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(MutantCraft.png)"><div class="text"><h2>Mutant Craft</h2><h3>Be a supervillain building hybrid monsters in this RPG game made in 36 hours for Critical Hit PreJam 2014</h3></div></div></a>
-				</td>
-				<td>
-					<a href="Grasslands.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(grasslands.png)"><div class="text"><h2>Grasslands</h2><h3>A first person prototype set in a mysterious universe known as the grasslands</h3></div></div></a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="IndieSpeedRun2013.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(BeatEmAds.png)"><div class="text"><h2>Beat'em Ads</h2><h3>A 2D platformer about Pop-up ads made in 48 hours for Indie Speed Run 2013</h3></div></div></a>
-				</td>
-				<td>
-					<a href="http://shine2013.github.io/" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(Shine.png)"><div class="text"><h2>Shine</h2><h3>A sensory gameplay experience about what it means to traverse the dangers of darkness alone developed at Academia summer school by Ubisoft</h3></div></div></a>
-				</td>
-				<td>
-					<a href="http://dualityprototype.github.io/" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(Duality.jpg)"><div class="text"><h2>Duality</h2><h3>An action adventure game based in the subatomic world developed for Ubisoft game lab competition 2013</h3></div></div></a>
-				</td>
-				<td>
-					<a href="http://player.vimeo.com/video/88797560" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(Orbitz.png)"><div class="text"><h2>Orbitz</h2><h3>A real-time strategy game set in a galaxy torn apart by an ancient war</h3></div></div></a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="Experiment.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(TheExperiment.png)"><div class="text"><h2>Untitled</h2><h3>A prototype of reactive AI behaviors</h3></div></div></a>
-				</td>
-				<td>
-					<a href="Parallex.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(parallex.png)"><div class="text"><h2>Countryside</h2><h3>A prototype of 2D parallax effect</h3></div></div></a>
-				</td>
-				<td>
-					<a href="EndlessBazar.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(EndlessBazar.png)"><div class="text"><h2>Untitled</h2><h3>A prototype of an endless bazaar</h3></div></div></a>
-				</td>
-				<td>
-					<a href="dodecahedron kaleidoscope.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(kaleidoscope.png)"><div class="text"><h2>Kaleidoscope</h2><h3>A dodecahedron kaleidoscope prototype</h3></div></div></a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="Gravity.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(gravity.png)"><div class="text"><h2>Untitled</h2><h3>A prototype of gravitational behaviour of planets</h3></div></div></a>
-				</td>
-				<td>
-					<a href="http://player.vimeo.com/video/88798276" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(KokPrototype.png)"><div class="text"><h2>Untitled</h2><h3>A game prototype using persian miniature paintings</h3></div></div></a>
-				</td>
-				<td>
-					<a href="http://cs.mcgill.ca/~mdehda/Xrpg/index.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(biomap.png)"><div class="text"><h2>Untitled</h2><h3>A tower-defense game prototype that helps solve subgraph isomorphism problem</h3></div></div></a>
-				</td>
-				<td>
-					<a href="TazhibPrototype.html" target="blank" style="text-decoration:none"><div class="pic" style="background-image:url(tazhib.png)"><div class="text"><h2>Untitled</h2><h3>A 2d tile-based puzzle prototype</h3></div></div></a>
-				</td>
-		</table>
-		</div>
-		</div>
-		</div>
-		COPYRIGHT &copy 2015 mdehdashti.com. ALL RIGHTS RESERVED
-</body>
+		<!-- ENDS MAIN -->
+		
+		<div id="footer"></div>
+		
+		<script type="text/javascript">
+			$('#footer').load('footer.html');
+		</script>
+					
+	</body>
+	
 </html>
