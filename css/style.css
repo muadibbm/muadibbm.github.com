@@ -34,12 +34,22 @@ footer, header, nav, section, audio, video {
 	font-weight: 100;
 	font-size: 64px;
 	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
 .subtitle { 
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 32px;
 	color: #00ceff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
 body{
@@ -221,6 +231,11 @@ nav a{
 	overflow: hidden;
 	padding: 0px 0px 5px 0px;
 	color: #fff900;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
 
