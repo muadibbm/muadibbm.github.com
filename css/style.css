@@ -38,9 +38,8 @@ footer, header, nav, section, audio, video {
 
 .subtitle { 
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-weight: 50;
 	font-size: 32px;
-	color: white;
+	color: #00ceff;
 }
 
 body{
@@ -217,12 +216,11 @@ nav a{
 
 #nav>li>a{
 	font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 300;
+	font-size: 25px;
 	display: block;
 	overflow: hidden;
-	padding: 0px 0px 7px 0px;
-	text-shadow: 2px 2px 0px rgba(0, 0, 0, .6);
+	padding: 0px 0px 5px 0px;
+	color: #fff900;
 }
 
 
@@ -970,12 +968,12 @@ article .meta .user{
 
 
 .footer-bottom{
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 footer .wrapper,
 .footer-bottom{
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
 
@@ -983,7 +981,7 @@ footer .wrapper,
 /* FOOTER BOTTOM ------------------------------------------------------------*/
 
 .footer-bottom{
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 	overflow: hidden;
 }
 

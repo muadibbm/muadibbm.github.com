@@ -31,7 +31,7 @@ body {-webkit-tap-highlight-color: #828282;}
 
 /* HEADER ------------------------------------------------------------*/
 
-header{ background: #444 url(../img/header.png) bottom left repeat-x; }
+header{ background: #444 url(../img/header.jpg) bottom left repeat-x; }
 
 
 /* WIDGETS------------------------------------------------*/
@@ -165,16 +165,3 @@ article .meta{
 /* SLIDER ------------------------------------------------------------*/
 
 #slider-holder #headline{ background: #e2e0d7; }
-
-
-
-/* FOOTER ------------------------------------------------------------*/
-
-
-footer .wrapper{
-	background: url(../img/footer.png) repeat-x top center;
-}
-
-.footer-bottom{
-	border-top: 1px solid #ccc;
-}
