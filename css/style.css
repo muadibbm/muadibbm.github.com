@@ -44,7 +44,7 @@ footer, header, nav, section, audio, video {
 .subtitle { 
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 32px;
-	color: #00ceff;
+	color: white;
 	text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,

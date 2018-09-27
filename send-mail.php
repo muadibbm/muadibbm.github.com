@@ -15,7 +15,6 @@ $from = $_POST['email'];
 //data
 $msg = "NAME: "  .$_POST['name']    ."<br>\n";
 $msg .= "EMAIL: "  .$_POST['email']    ."<br>\n";
-$msg .= "WEBSITE: "  .$_POST['web']    ."<br>\n";
 $msg .= "COMMENTS: "  .$_POST['comments']    ."<br>\n";
 
 //Headers
