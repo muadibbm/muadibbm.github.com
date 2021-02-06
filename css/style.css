@@ -30,26 +30,16 @@ footer, header, nav, section, audio, video {
 }
 
 .title { 
-	font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 100;
-	font-size: 64px;
+	font-size: 50px;
 	color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
 }
 
 .subtitle { 
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 32px;
 	color: white;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
 }
 
 body{
