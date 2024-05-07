@@ -136,20 +136,20 @@
 					
 					<figure>
 		        		<figcaption>
-	        				<strong>The Poet and the Khan</strong>
-	        				<span>A Game about a conversation between a Persian Poet and Tamerlane the conqueror.</span>
-	        				<em>Nov 12, 2023</em>
-			        	</figcaption>
-			        	<a href="https://muadibbm.itch.io/the-poet-and-the-khan"  class="thumb" target="_blank"><img src="img/projects/ThePoetAndTheKhan/main.jpg" alt="Alt text" /></a>
-		        	</figure>
-					
-					<figure>
-		        		<figcaption>
 	        				<strong>Ballad Of Birds</strong>
 	        				<span>Use musical instruments to rebuild the world! A Game inspired by Attar's Conference of Birds.</span>
 	        				<em>March 21, 2021</em>
 			        	</figcaption>
 			        	<a href="https://muadibbm.itch.io/ballad-of-birds"  class="thumb" target="_blank"><img src="img/projects/BalladOfBirds/main.jpg" alt="Alt text" /></a>
+		        	</figure>
+					
+					<figure>
+		        		<figcaption>
+	        				<strong>The Poet and the Khan</strong>
+	        				<span>A Game about a conversation between a Persian Poet and Tamerlane the conqueror.</span>
+	        				<em>Nov 12, 2023</em>
+			        	</figcaption>
+			        	<a href="https://muadibbm.itch.io/the-poet-and-the-khan"  class="thumb" target="_blank"><img src="img/projects/ThePoetAndTheKhan/main.png" alt="Alt text" /></a>
 		        	</figure>
 					
 					<figure>
@@ -206,7 +206,7 @@
 	        				<span>How long can you survive? Avoid fire! Eat villagers to regenerate your limbs.</span>
 	        				<em>Dec 15, 2023</em>
 			        	</figcaption>
-			        	<a href="https://kitfoxgames.itch.io/feast"  class="thumb" target="_blank"><img src="img/projects/TheFeast/main.jpg" alt="Alt text" /></a>
+			        	<a href="https://kitfoxgames.itch.io/feast"  class="thumb" target="_blank"><img src="img/projects/TheFeast/main.png" alt="Alt text" /></a>
 		        	</figure>
 					
 					<figure>
@@ -233,7 +233,6 @@
 	        				<span>An adventure game about what it means to traverse the dangers of darkness developed at Academia summer school by Ubisoft</span>
 	        				<em>July 07, 2013</em>
 			        	</figcaption>
-			        	
 			        	<a href="http://shine2013.github.io"  class="thumb" target="_blank"><img src="img/projects/Shine/main.jpg" alt="Alt text" /></a>
 		        	</figure>
 					
