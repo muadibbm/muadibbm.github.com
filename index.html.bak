@@ -136,11 +136,11 @@
 					
 					<figure>
 		        		<figcaption>
-	        				<strong></strong>
-	        				<span></span>
-	        				<em>Aug 11, 2023</em>
+	        				<strong>The Poet and the Khan</strong>
+	        				<span>A Game about a conversation between a Persian Poet and Tamerlane the conqueror.</span>
+	        				<em>Nov 12, 2023</em>
 			        	</figcaption>
-			        	<a href=""  class="thumb" target="_blank"><img src="" alt="Alt text" /></a>
+			        	<a href="https://muadibbm.itch.io/the-poet-and-the-khan"  class="thumb" target="_blank"><img src="img/projects/ThePoetAndTheKhan/main.jpg" alt="Alt text" /></a>
 		        	</figure>
 					
 					<figure>
@@ -191,14 +191,22 @@
 			        	<a href="https://maizelongboat.itch.io/terra-nova"  class="thumb" target="_blank"><img src="img/projects/Terranova/main.jpg" alt="Alt text" /></a>
 		        	</figure>
 					
-	    			<figure>
+	        		<figure>
 		        		<figcaption>
-	        				<strong>Makerbloks World</strong>
-	        				<span>A puzzle solving point and click adventure game which teaches kids about electronics developed for iPad</span>
-	        				<em>April 30, 2015</em>
+	        				<strong>Mahika Village</strong>
+	        				<span>A Lovecraftian interactive adventure made in 48 hours</span>
+	        				<em>Nov 16, 2020</em>
 			        	</figcaption>
-			        	
-			        	<a href="project_MakerbloksWorld.html"  class="thumb" target="_blank"><img src="img/projects/MakerbloksWorld/main.jpg" alt="Alt text" /></a>
+			        	<a href="https://muadibbm.itch.io/mahika-village"  class="thumb" target="_blank"><img src="img/projects/MahikaVillage/main.jpg" alt="Alt text" /></a>
+		        	</figure>
+					
+					<figure>
+		        		<figcaption>
+	        				<strong>The Feast</strong>
+	        				<span>How long can you survive? Avoid fire! Eat villagers to regenerate your limbs.</span>
+	        				<em>Dec 15, 2023</em>
+			        	</figcaption>
+			        	<a href="https://kitfoxgames.itch.io/feast"  class="thumb" target="_blank"><img src="img/projects/TheFeast/main.jpg" alt="Alt text" /></a>
 		        	</figure>
 					
 					<figure>
@@ -209,16 +217,6 @@
 		        		</figcaption>
 		        		<a href="https://globalgamejam.org/2018/games/protector"  class="thumb" target="_blank"><img src="img/projects/Protector/main.png" alt="Alt text" /></a>
 	        		</figure>
-					
-	        		<figure>
-		        		<figcaption>
-	        				<strong>Mahika Village</strong>
-	        				<span>A Lovecraftian interactive adventure made in 48 hours</span>
-	        				<em>Nov 16, 2020</em>
-			        	</figcaption>
-			        	
-			        	<a href="https://muadibbm.itch.io/mahika-village"  class="thumb" target="_blank"><img src="img/projects/MahikaVillage/main.jpg" alt="Alt text" /></a>
-		        	</figure>
 					
 					<figure>
 		        		<figcaption>
@@ -255,6 +253,15 @@
 	        				<em>October 01, 2013</em>
 			        	</figcaption>
 			        	<a href="https://v1.escapistmagazine.com/content/indie-speed-run/?game=375"  class="thumb"><img src="img/projects/BeatEmAds/main.jpg" alt="Alt text" /></a>
+		        	</figure>
+					
+	    			<figure>
+		        		<figcaption>
+	        				<strong>Makerbloks World</strong>
+	        				<span>A puzzle solving point and click adventure game which teaches kids about electronics developed for iPad</span>
+	        				<em>April 30, 2015</em>
+			        	</figcaption>
+			        	<a href="project_MakerbloksWorld.html"  class="thumb" target="_blank"><img src="img/projects/MakerbloksWorld/main.jpg" alt="Alt text" /></a>
 		        	</figure>
 					
 					<!--
