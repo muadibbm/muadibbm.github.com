@@ -1,0 +1,229 @@
+<!doctype html>
+<html class="no-js">
+	<head><meta charset="utf-8"/>
+<title>Mehrdad Dehdashti</title>
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" media="all" href="css/style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+
+<!-- JS -->
+<script src="js/jquery-1.6.4.min.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/tabs.js"></script>
+
+<!-- Tweet -->
+<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  /> 
+<script src="js/tweet/jquery.tweet.js" ></script> 
+<!-- ENDS Tweet -->
+
+<!-- superfish -->
+<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+<!-- ENDS superfish -->
+
+<!-- prettyPhoto -->
+<script  src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css"  media="screen" />
+<!-- ENDS prettyPhoto -->
+
+<!-- poshytip -->
+<link rel="stylesheet" href="js/poshytip-1.1/src/tip-twitter/tip-twitter.css"  />
+<link rel="stylesheet" href="js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css"  />
+<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+<!-- ENDS poshytip -->
+
+<!-- GOOGLE FONTS -->
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
+
+<!-- Flex Slider -->
+<link rel="stylesheet" href="css/flexslider.css" >
+<script src="js/jquery.flexslider-min.js"></script>
+<!-- ENDS Flex Slider -->
+
+<!-- Less framework -->
+<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+
+<!-- modernizr -->
+<script src="js/modernizr.js"></script>
+
+<!-- SKIN -->
+<link rel="stylesheet" media="all" href="css/skin.css"/>
+
+<!-- reply move form -->
+<script src="js/moveform.js"></script>
+
+</head>
+	
+	<body lang="en">
+	
+		<header class="clearfix">
+
+			<div class="wrapper">
+				<a href="index.html" id="logo">
+				<!--
+					<div class="title">MEHRDAD DEHDASHTI</div>
+					<img  src="" alt="">
+					<div class="subtitle">Game Developer, Programmer, Creativity Enthusiast</div>
+					
+				-->
+				</a>
+				<!--
+				<nav>
+					<ul id="nav" class="sf-menu">
+						<li><a href="index.html">WORK</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+					<div id="combo-holder"></div>
+				</nav>
+			</div>
+		</header>
+		
+		
+		<!-- MAIN -->
+		<div id="main">	
+			<div class="wrapper clearfix">
+	        	
+				<!-- project content -->
+				<div id="project-content" class="clearfix">
+					
+					<!-- slider -->
+					<!--
+					<div class="project-slider">
+				        <div class="flexslider">
+						  <ul class="slides">
+						    <li>
+						      <img src="img/projects/MakerbloksWorld/slide_pic1.jpg" alt="alt text" />
+						    </li>
+						    <li>
+						      <img src="img/projects/MakerbloksWorld/slide_pic2.jpg" alt="alt text" />
+						    </li>
+						    <li>
+						      <img src="img/projects/MakerbloksWorld/slide_pic3.jpg" alt="alt text" />
+						    </li>
+							<li>
+						      <img src="img/projects/MakerbloksWorld/slide_pic4.jpg" alt="alt text" />
+						    </li>
+							<li>
+						      <img src="img/projects/MakerbloksWorld/slide_pic5.jpg" alt="alt text" />
+						    </li>
+						  </ul>
+						</div>
+					</div>
+					-->
+		        	<!-- ENDS slider -->
+		        	
+		        	<!-- heading -->
+					<div class="project-heading">
+						<h2>Makerbloks World</h2>
+						<!-- <a href="" class="launch">Download</a> -->
+						<div class="clearfix"></div>
+					</div>
+					<!-- ENDS heading -->
+					<div class="project-description">
+					<br>
+						<table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_crane.gif" alt="alt text" width="100%"/></td>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_bridge.gif" alt="alt text" width="100%"/></td>
+							</tr>
+							<tr>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_dance.gif" alt="alt text" width="100%"/></td>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_golem.gif" alt="alt text" width="100%"/></td>
+							</tr>
+							<tr>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_boat.gif" alt="alt text" width="100%"/></td>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_stair.gif" alt="alt text" width="100%"/></td>
+							</tr>
+						</table>
+					<br>
+					</div>
+					<!--
+	        	
+					<div class="project-description">
+						<p>
+						Makerbloks World is an educational iPad game for children, based on the electronic bloks developed using Unity for Makerbloks.
+						You can check their amazing creations at <a href="https://www.makerbloks.com/en/" target="_blank">https://www.makerbloks.com</a>.
+						<br>
+						The game takes the player through an adventurous journey where they have to discover a lost power source to save the Makerbloks world. 
+						In order to do so, players have to learn and solve puzzles which are based on electronic circuitry.
+						<br>
+						The game was developed as a prototype for Makerbloks over 4 months. I worked with a team
+						of five talented people including artists, programmers and even a mechanical engineer. My primary role was lead game design, programming and managing the project.
+						<br>
+						The prototype consists of a single level containing a total of eleven unique puzzles designed using combinations of electronic bloks (switches, resistors, LEDs, etc).
+						The players use the bloks in their inventory by drag-and-drop to solved the puzzle.
+						The encountered puzzles increase in level of difficulty as new bloks are introduced and their complexity increases. Each puzzle teaches
+						about a certain aspect of electronic components.
+						<br>
+						<table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_crane.gif" alt="alt text" width="100%"/></td>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_bridge.gif" alt="alt text" width="100%"/></td>
+							</tr>
+							<tr>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_dance.gif" alt="alt text" width="100%"/></td>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_golem.gif" alt="alt text" width="100%"/></td>
+							</tr>
+							<tr>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_boat.gif" alt="alt text" width="100%"/></td>
+								<td><img src="img/projects/MakerbloksWorld/puzzle_stair.gif" alt="alt text" width="100%"/></td>
+							</tr>
+						</table>
+						<br>
+						The level gives a peek into the world of Makerbloks. The narrative starts from the outskirts of the city and explores
+						the concepts of "technology vs nature". The player is suppose to shut down all the machines that are destroying the forest.
+						He/she would then venture into the forest where they encounter a tribe whose totem has been disabled. Restoring it, the players
+						are given a boat to sail on the river to the end of the forest where they enter the mysterious temple.
+						The game gradually takes the player from new technologically advanced to more ancient nature-oriented environments.
+						The prototype end when the players complete the last puzzle at the top of the temple.
+						<br>
+						Below, you can see a view of the entire level, starting from the city all the way to the temple's tower.
+						<br></br>
+						<img src="img/projects/MakerbloksWorld/full_level_view.jpg" alt="alt text" width="100%"/>
+						<br>
+						Developing this game, I learned a lot about implementing mechanics for point-and-click adventures. The player movement is based on
+						a graph-based path finding using breadth-first-search. The inventory system and a drag-and-drop mechanic was also developed. The rest of 
+						the mechanics are mostly event-driven and trigger-based.
+						</p>
+					</div>
+					
+					<div class="project-info">
+
+						<p>
+						<strong>Date</strong><br/>
+						April 30, 2015
+						</p>
+						<p>
+						<strong>Role</strong><br/>
+						Lead Game Designer, Programmer, Project Manager
+						</p>
+					</div>
+					-->
+					
+				</div>	        	
+	        	<!--  ENDS project content-->
+
+	        	
+			</div>
+		</div>
+		<!-- ENDS MAIN -->
+		
+		<footer>
+			<div class="wrapper">	
+				<div class="footer-bottom">
+						<p>COPYRIGHT &copy 2025 mdehdashti.com. ALL RIGHTS RESERVED</p>
+				</div>
+				
+			</div>
+		</footer>
+					
+	</body>
+	
+</html>

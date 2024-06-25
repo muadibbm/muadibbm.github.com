@@ -681,7 +681,7 @@ nav a{
 }
 
 .related-projects .thumb:hover img{
-	opacity: 0.1;
+	opacity: 0.15;
 }
 
 .related-projects figure img{
